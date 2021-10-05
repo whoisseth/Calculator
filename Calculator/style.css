@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    height: 400px;
+    width: 280px;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.resultArea {
+    box-sizing: border-box;
+    height: 12%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.resultArea>input {
+    box-sizing: border-box;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 20px;
+    outline: none;
+    border: none;
+    background: rgb(0, 0, 0);
+    background-color: white;
+    color: black;
+    border-style: hidden;
+    border-radius: 10px;
+    cursor: context-menu;
+    pointer-events: none;
+}
+
+.numberArea {
+    height: 85%;
+    width: 100%;
+    box-sizing: border-box;
+    display: table;
+}
+
+table {
+    box-sizing: border-box;
+    border-collapse: collapse;
+    width: 100%;
+    height: 100%;
+    border-style: hidden;
+    border-collapse: separate;
+}
+
+.btns {
+    width: 70px;
+    height: 5px;
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #fff;
+    background-color: #070707;
+    border-radius: 10px;
+    user-select: none;
+    border-radius: 50%;
+}
+
+.btns:hover {
+    background-color: #4d4b4b;
+}
+
+#equal {
+    background-color: #c92563;
+}
+
+#equal:hover {
+    background-color: #f70662;
+}
+
+#percentage,
+#clear,
+#backspace,
+#divide,
+#multiply,
+#plus,
+#minus {
+    background-color: #232e31;
+}
+
+#ce:hover,
+#clear:hover,
+#backspace:hover,
+#divide:hover,
+#multiply:hover,
+#plus:hover,
+#minus:hover {
+    background-color: #222525;
+    background-color: #4d4b4b;
+}
+
+#para {
+    text-align: center;
+    font-size: 15px;
+    margin-top: -50px;
+    margin-bottom: 10px;
+    font-family: monospace;
+    box-sizing: border-box;
+    cursor: context-menu;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
